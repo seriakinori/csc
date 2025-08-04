@@ -1,0 +1,6 @@
+C:\Windows\Microsoft.NET\Framework\v4.0.30319\csc.exe
+C:\Windows\Microsoft.NET\Framework64\v4.0.30319\csc.exe
+C:\Windows\WinSxS\amd64_netfx4-csc_exe_b03f5f7f11d50a3a_4.0.15912.0_none_78ce8a6e35a89ad2\csc.exe
+C:\Windows\WinSxS\amd64_netfx4-csc_exe_b03f5f7f11d50a3a_4.0.15912.338_none_6ee61d3ca59b8c86\csc.exe
+C:\Windows\WinSxS\x86_netfx4-csc_exe_b03f5f7f11d50a3a_4.0.15912.0_none_c07bc1454a24c3d8\csc.exe
+C:\Windows\WinSxS\x86_netfx4-csc_exe_b03f5f7f11d50a3a_4.0.15912.338_none_b6935413ba17b58c\csc.exe
