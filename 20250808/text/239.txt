@@ -1,0 +1,6 @@
+SAGAN
+・Self-Attention GAN
+・通常の畳み込み（Conv）層では、局所的な情報しか扱えない→Self-Attentionで画像全体のグローバルな関係性を1ステップで学習
+・1x1の畳み込み層を用いてチャネル数を減らして適用
+・TTUR（two time-scale update rule）：GeneratorとDiscriminatorで異なる学習率
+・GeneratorとDiscriminatorにSpectral Normalizationを適用し、パラメータの大きさをコントロールし、異常な勾配が伝わることを抑制する

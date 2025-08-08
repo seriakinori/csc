@@ -1,0 +1,7 @@
+クラス指定画像生成のGAN
+・cGAN：データセットのクラス情報をGANの学習に使用
+・InfoGAN：生成時に利用価値の高い特徴量を教師なし学習で獲得
+・ACGAN：Generatorに入力画像のラベルを与える＋Discriminatorは生成画像の真偽判定だけでなくクラスの分類も行う
+・SAGAN：self-AttentionでConv層の課題を乗り越える。TTURでGとDを別々のスケールで学習
+・BigGAN：スケールが大きく学習コストがかかる。Truncation Trick
+・SytleGAN：各層に入力する潜在空間を途中で切り替えることでスタイルミックスが可能

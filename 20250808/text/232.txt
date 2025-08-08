@@ -1,0 +1,5 @@
+GANにおけるReLUファミリーについて
+・Leaky ReLU （xが負のとき微細なαx）
+・事前にハイパーパラメータを決める必要がある。
+・Randomized ReLUとParametric ReLUはαを事前に決定する必要はない。
+・Leaky ReLUを使用するのは、DCGAN、SinGAN

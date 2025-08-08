@@ -1,0 +1,2 @@
+Depthwise Separable Convolutionと従来の畳み込みの計算量
+・Depthwise Separable Convolutionのほうが1/5ほど計算量を削減

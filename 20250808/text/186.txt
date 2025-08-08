@@ -1,0 +1,5 @@
+Faster R-CNN
+・Region proposal(領域提案)にCNNを用いる
+・入力から出力までの計算が統一されたモデルで行われるEnd-to-Endでの学習→誤差逆伝播により一度にすべてのパラメータを更新できる
+・RoIPoolingは特徴マップを固定サイズにリサイズ → R-CNNでは「切り出してから CNN」、Faster R-CNNでは「CNNを通してから切り出し」なのでリサイズの位置が逆転
+・※RoiAlignはMask R-CNN

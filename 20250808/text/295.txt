@@ -1,0 +1,4 @@
+CTC
+・Connectionist Temporal Classification
+・「入力長と出力長が異なり、事前のアラインメント（対応付け）がない系列ラベリング問題」をニューラルネットで扱うための損失関数
+・LSTM 音声認識用

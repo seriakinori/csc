@@ -1,0 +1,8 @@
+GAN
+・Generatorは訓練データと同じような分布を出力できるように学習：D(G(z))が1=DがGの出力を1と認識するよう学習→log(1-D(G(z))を最小化 ※log0は-∞
+・そのときDiscriminatorはGの出力と訓練データの区別がつかなくなるので、Ｄ(x)の出力は0.5に近づく
+・D(x)は訓練データを入力とした時にDiscriminatorが訓練データであると判別する確率を表すので、訓練データと生成データを正しく判別するように学習させるとlogD(x)の値は大きくなる→最大化するDiscriminator
+・損失関数において最大化するDiscriminator、最小化するGeneratorが最適
+Discriminator は 右式を 最大化 ⇒ 「本物 1, 偽物 0」を当てたい。
+Generatorは 右式を 最小化 ⇒ 「D をだまして V を下げたい」。
+・学習としてはGeneratorの損失が最小になることを目的とする（画像を生成するGeneratorを作るのが目的）のでminは一番外にくる

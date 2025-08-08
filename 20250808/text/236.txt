@@ -1,0 +1,4 @@
+cGAN
+・Conditional GAN
+・データのクラス情報（クラスラベル）もGeneratorとDiscriminatorに入力することで、生成画像の質とクラス識別性を向上
+・Discriminatorにおける入力は画像のサイズに合わせる必要があるので、条件ベクトルは画像のデータサイズ(width*height)として入力

@@ -1,0 +1,5 @@
+SegNet
+・semantic segmentaion用途
+・Encoder-Decoderアーキテクチャであり、un-poolingを導入しメモリ効率を改善
+・unpooling：メモリ効率が悪くなってしまう問題を、特徴マップをアップサンプリングするMax-Pooling indexで解決
+・逆畳み込み（Deconvolution）を利用

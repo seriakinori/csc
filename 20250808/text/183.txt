@@ -1,0 +1,3 @@
+Selective Search
+・R-CNN、Fast R-CNNに使用
+・後段で NMS や分類器 (SVM/CNN) に掛けて最終検出

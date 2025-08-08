@@ -1,0 +1,3 @@
+Minibatch Discrimination
+・Discriminatorに「mode collapseが起きているか」を見分けやすくするためのヒント を与える
+・ミニバッチを作成し、その中の画像が似ているかどうか（ミニバッジのサンプル間の近さ）のスコアを算出し、その値をDiscriminatorに与える手法

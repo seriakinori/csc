@@ -1,0 +1,6 @@
+高解像度生成のGANの派生
+・GAN：28x28。
+・LAPGAN：256x256
+・DCGAN：64x64
+・PGGAN：1024x1024：Progressive→段階的に
+・SinGAN：ほとんど任意

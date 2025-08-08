@@ -1,0 +1,5 @@
+ACGAN
+・Auxiliary Classifier GAN＝クラスの補助的な分類器付き
+・通常のGANは「画像が本物か偽物か」しか学習しないのに対し、ACGANは「画像のクラスラベル」も一緒に学習し、より制御された生成を実現
+・ACGANはConditional GAN（条件付きGAN）を拡張し、識別器に「補助的な分類器（Auxiliary Classifier）」を組み込むことで、生成画像のクラス制御と識別精度向上を同時に実現したモデル
+・Discriminatorは入力データの真偽の判定(訓練データか生成データか)とその画像のクラス分類を行う

@@ -1,0 +1,4 @@
+NICE
+・加法カップリング
+・Non-linear Independent Components Estimation
+・潜在成分を因子化（独立化）させることで密度モデリングを行う

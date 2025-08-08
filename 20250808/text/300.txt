@@ -1,0 +1,8 @@
+Dilated Causal Convolution
+・過去の情報に基づいて、飛び飛びに畳み込み
+・Dilated causal convolutionでは層が深くなるにつれてDilationは二倍ずつ大きくなる
+・causal convolution：過去の情報のみを参照して行われる畳み込み
+・層が深くなるにつれて畳み込み処理を行うノードを離す度合い(Dilation)を大きくしていく
+
+
+

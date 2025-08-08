@@ -1,0 +1,8 @@
+DCGAN
+・Deep Convolutional GAN⇒GANにCNNを導入
+・GeneratorとDiscriminatorのそれぞれのネットワークに全結合層ではなく畳み込み層と転置畳み込み層を使用
+※プーリングは不使用
+・Generator：転置畳み込みを使用。※全結合層やプーリング層は不使用
+・Discriminator：ダウンサンプリング構造。プーリング層がない。Leaky ReLUを使用
+・バッチ正規化、活性化関数にReLUだけではなくtahnやLeaky ReLUを使用し学習を安定させている
+・オリジナルのGANよりも自然な画像が可能に

@@ -1,0 +1,9 @@
+画像分類の有名モデル
+・AlexNet：【火付け役】５層の畳み込み層と３層の全結合層
+・VGG（Visual Geometry Group）：【シンプル】3x3のフィルターのみのシンプルなアーキテクチャ
+・GoogleNet：【多層化】「Inception Module」
+・ResNet：【残差】PlainアーキテクチャとBottleneckアーキテクチャ
+・WideResNet：【残差】次元数（フィルタ数）の増加
+・DenseNet：【N個の残差】Dense BlockとTransition layer
+・MobileNet：【計算量削減】
+・EfficientNet：【効率的Network】MBConv, Compound Scaling Methods

@@ -1,0 +1,5 @@
+Flow++
+・正規化フロー（normalizing flow）系の厳密尤度（exact log-likelihood）型生成モデル
+・variational dequantization：学習された（条件付き）連続ノイズ分布。 “dequantize” は「離散画素値を連続値として扱うためにノイズを足す」という意味
+・Logistic Mixture CDF Coupling（ロジスティック混合CDFカップリング）：アフィン変換より表現力のある単調可逆要素変換
+・Self-Attention入りコンディショニングネット：カップリング層パラメータを生成するネットワークに畳み込み＋マルチヘッド自己注意＋ゲーティングを積層し表現力を強化

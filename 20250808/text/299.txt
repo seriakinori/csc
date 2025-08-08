@@ -1,0 +1,5 @@
+WaveNet
+・音声信号の生の波形を直接モデル化する音声合成ディープニューラルネットワーク
+・直前の音だけでなく、はるか過去の音にも依存するという長期的な依存関係
+・Dilated Causal Convolution、Residual & skip connmections、Gated Tahn Unitsを使用
+・※前向き後ろ向きアルゴリズムは使われない

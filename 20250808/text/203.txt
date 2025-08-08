@@ -1,0 +1,7 @@
+U-Net 
+・画像（特に医用画像）に対して各ピクセル（またはボクセル）をクラス分類する「セマンティック・セグメンテーション」を行うために設計された畳み込みニューラルネットワーク（CNN）
+・ 収縮パス (contracting path / encoder) と 拡張パス (expansive path / decoder) からなる対称構造
+・U-Netは元画像の空間情報を補完するためにshortcut接続を持つ
+・U-NetはEncoder-Decoderモデルである
+・SegNetではmax-pooling indexを利用し、抽出したピクセルの位置を保存するun-poolingを導入した
+・逆畳み込みを使用

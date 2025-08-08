@@ -1,0 +1,2 @@
+Max-Pooling index
+・SegNet：Maxpooling層で抽出したpixelのインデックスのみ保存することでメモリ効率を向上させるもの

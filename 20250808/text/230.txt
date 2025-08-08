@@ -1,0 +1,3 @@
+DCGANのdiscriminator loss
+・2 つのバイナリ分類誤差（損失）を足し合わせる。
+・本物の画像に1（real_loss）, 偽物の画像に0（fake_loss）とラベルをつける

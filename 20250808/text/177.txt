@@ -1,0 +1,5 @@
+MobileNet
+・Depthwise Separable Convolution。
+・空間方向とチャネル方向を分けて畳み込む。
+・空間方向の計算：depthwise→ チャネル毎に独立した畳み込み演算
+・チャネル方向の計算：pointwise →1x1の畳み込み

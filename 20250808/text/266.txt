@@ -1,0 +1,3 @@
+Noisy Student Training
+ラベル付きデータが少ない状況で大規模未ラベルデータを活用し、モデル精度を大幅に引き上げる 
+・自己学習（Self‑Training） 系の手法

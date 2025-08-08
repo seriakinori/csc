@@ -1,0 +1,9 @@
+物体検出の有名モデル
+・DL以前：【ルールベース】Selective Search+SVM
+・R-CNN：【CNN初使用】Selective Search+CNN
+・Fast R-CNN：【R-CNN効率化】画像全体のCNN＋Selective Search
+・Faster R-CNN：Selective Searchをなくす。End-to-End。Roi Pooling
+・YOLO：【同時に検出、識別】認識速度のブレイクスルー
+・SSD：【YOLOの親戚】分割数を徐々にスケールダウン、Hard Negative Mining
+・Mask R-CNN：【Faster R-CNNの改良モデル】RoI Align
+・FCOS：【アンカーフリー】 Centerness

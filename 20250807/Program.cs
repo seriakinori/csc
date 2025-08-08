@@ -32,7 +32,7 @@ namespace Program20250807{
                         {
                             var numcell = worksheet.Cell(i, 1);
                             var datacell = worksheet.Cell(i, 8);
-                            Console.WriteLine("{0}: {1}", numcell.Value, datacell.Value);
+                            Console.WriteLine("{0}\n {1}", numcell.Value, datacell.Value);
                         }
                     }
                 }

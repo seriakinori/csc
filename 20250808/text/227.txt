@@ -1,0 +1,8 @@
+GANのアルゴリズムの順序
+・GANではDiscriminatorから学習を行う
+・Discriminatorの学習にはノイズでない正解データが必要ですので、データのサンプリングをしてからDiscriminatorの学習を行う
+・まず本物データと偽データ（Generator が出力するサンプル）を用いて Discriminator を学習し、続いて新たにノイズをサンプリングして Generator を更新
+１，m 個のノイズ z とデータ x をサンプリング
+２．Discriminator を更新
+３，m 個のノイズ z をサンプリング
+４． Generator を更新

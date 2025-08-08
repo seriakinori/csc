@@ -1,0 +1,4 @@
+EfficientNet
+・モデルの深さ、広さ、解像度を同時に調整する
+・MBConv：Mobile Inverted BottleneckとSqueeze-and-Excitationモジュールによって構成される畳み込み層
+・Compound Scaling Methods：深さ、広さ、解像度というモデルのスケールを調整することによってパラメータ数を抑えつつ高精度を得る手法

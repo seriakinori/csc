@@ -1,0 +1,4 @@
+GANの問題点
+・DiscriminatorがGeneratorに圧勝して勾配消失
+・モード崩壊
+・Unrolled GAN、Wasserstein GAN、Minibatch Discrimination

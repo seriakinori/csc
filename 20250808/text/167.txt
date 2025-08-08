@@ -1,0 +1,5 @@
+GoogLeNet
+・Auxiliary lossによる中間層における損失計算を行うことによって勾配消失の防止や正則化
+・Inception module(サイズの異なるフィルタにより構成)で次元削減の効果
+・※Inception Moduleで計算量の削減は不可
+・Global Avarage Poolingでパラメータを激減・過学習を抑制

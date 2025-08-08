@@ -1,0 +1,2 @@
+DCGANのGenerator loss
+・ Discriminator を騙すためにラベルを 1とする。そのためtorch.ones_like との誤差を求める。

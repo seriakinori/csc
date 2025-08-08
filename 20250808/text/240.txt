@@ -1,0 +1,4 @@
+TTUR
+・Two Time-Scale Update Rule の略
+・Generator（G）とDiscriminator（D）を別々の「時間スケール」（＝学習率・モメンタム係数）で更新する手法
+・Discriminator側を速く学習（高い学習率）、Generator側をゆっくり学習（低い学習率）することで，訓練の安定化と収束性の理論的保証を得られます。

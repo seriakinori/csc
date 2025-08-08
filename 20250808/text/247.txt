@@ -1,0 +1,3 @@
+StarGAN
+・単一モデル（Generator）で複数のドメイン変換を可能にしたGAN
+・表情変換タスクでCycleGAＮを上回る
