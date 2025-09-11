@@ -1,0 +1,1 @@
+aaaa - this is sjis encoding.
