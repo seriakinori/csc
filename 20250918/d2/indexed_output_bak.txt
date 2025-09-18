@@ -1,0 +1,75 @@
+01:using System;
+02:using System.Linq;
+03:using System.Collections.Generic;
+04:using System.Collections.Concurrent;
+05:
+06:
+07:public class Book
+08:{
+09:    public string Title { get; init; } = string.Empty;
+10:    public int Price { get; init; }
+11:    public int Pages { get; init; }
+12:}
+13:
+14:class Program
+15:{
+16:    public static void q7_1()
+17:    {
+18:        int[] n = [5, 10, 17, 9, 3, 21, 10, 40, 21, 3, 35];
+19:        // 1
+20:        //Console.WriteLine(n.Max(s => s));
+21:        // 2 
+22:        //n.TakeLast(2).ToList().ForEach(Console.WriteLine);
+23:        // 3 
+24:        //n.Select(i => i.ToString("000")).ToList().ForEach(Console.WriteLine);
+25:        // 4
+26:        //n.Order().Take(3).ToList().ForEach(Console.WriteLine);
+27:        // 5
+28:        //Console.WriteLine(n.Distinct().Count(i => i > 10));
+29:    }
+30:
+31:    public static void q7_2()
+32:    {
+33:        var books = new List<Book> {
+34:            new Book { Title = "C#プログラミングの新常識", Price = 3800, Pages = 378 },
+35:            new Book { Title = "ラムダ式とLINQの極意", Price = 2500, Pages = 312 },
+36:            new Book { Title = "ワンダフル・C#ライフ", Price = 2900, Pages = 385 },
+37:            new Book { Title = "一人で学ぶ並列処理プログラミング", Price = 4800, Pages = 464 },
+38:            new Book { Title = "フレーズで覚えるC#入門", Price = 5300, Pages = 604 },
+39:            new Book { Title = "私でも分かったASP.NET Core", Price = 3200, Pages = 453 },
+40:            new Book { Title = "楽しいC#プログラミング教室", Price = 2540, Pages = 348 },
+41:        };
+42:        // 1
+43:        /*
+44:        var a1 = books.Where(b => b.Title == "ワンダフル・C#ライフ");
+45:        foreach (Book b in a1)
+46:            Console.WriteLine("{0},{1}", b.Price, b.Pages);
+47:        */
+48:        // 2
+49:        //Console.WriteLine(books.Count(b => b.Title.Contains("C#")));
+50:        // 3
+51:        //books.Where(b => b.Title.Contains("C#")).Select(b => b.Title).ToList().ForEach(Console.WriteLine);
+52:        //Console.WriteLine(books.Where(b => b.Title.Contains("C#")).Average(b => b.Price));
+53:        // 4
+54:        //Console.WriteLine(books.Where(b => b.Price >= 4000).First().Title);
+55:        // 5
+56:        //Console.WriteLine(books.Where(b => b.Price < 4000).Max(b => b.Pages));
+57:        // 6
+58:        /*
+59:        foreach (Book bk in books.Where(b => b.Pages >= 400).OrderByDescending(b => b.Price))
+60:        {
+61:            Console.WriteLine("Title:{0}, Price:{1}, Pages:{2}", bk.Title, bk.Price, bk.Pages);
+62:        }
+63:        */
+64:        // 7
+65:        books.Where(b => b.Title.Contains("C#") && b.Pages <= 500).Select(b => b.Title).ToList().ForEach(Console.WriteLine);
+66:
+67:    }
+68:
+69:    static void main()
+70:    {
+71:        //q7_1();
+72:        q7_2();
+73:        return;
+74:    }
+75:}
