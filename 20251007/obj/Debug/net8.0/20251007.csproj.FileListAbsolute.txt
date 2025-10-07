@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\csc\20251007\bin\Debug\net8.0\20251007.exe
+C:\Users\User\Desktop\csc\20251007\bin\Debug\net8.0\20251007.deps.json
+C:\Users\User\Desktop\csc\20251007\bin\Debug\net8.0\20251007.runtimeconfig.json
+C:\Users\User\Desktop\csc\20251007\bin\Debug\net8.0\20251007.dll
+C:\Users\User\Desktop\csc\20251007\bin\Debug\net8.0\20251007.pdb
+C:\Users\User\Desktop\csc\20251007\obj\Debug\net8.0\20251007.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\csc\20251007\obj\Debug\net8.0\20251007.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\csc\20251007\obj\Debug\net8.0\20251007.AssemblyInfo.cs
+C:\Users\User\Desktop\csc\20251007\obj\Debug\net8.0\20251007.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\csc\20251007\obj\Debug\net8.0\20251007.sourcelink.json
+C:\Users\User\Desktop\csc\20251007\obj\Debug\net8.0\20251007.dll
+C:\Users\User\Desktop\csc\20251007\obj\Debug\net8.0\refint\20251007.dll
+C:\Users\User\Desktop\csc\20251007\obj\Debug\net8.0\20251007.pdb
+C:\Users\User\Desktop\csc\20251007\obj\Debug\net8.0\20251007.genruntimeconfig.cache
+C:\Users\User\Desktop\csc\20251007\obj\Debug\net8.0\ref\20251007.dll

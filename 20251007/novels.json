@@ -1,0 +1,17 @@
+[
+  {
+    "Title": "A tale of two cities",
+    "Author": "Charles Dickens",
+    "PublishYear": 1859
+  },
+  {
+    "Title": "Pride and Prejudice",
+    "Author": "Jane Austin",
+    "PublishYear": 1813
+  },
+  {
+    "Title": "それから",
+    "Author": "夏目漱石",
+    "PublishYear": 1909
+  }
+]
