@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\csc\answer\A11-5\bin\Debug\net8.0\SampleApp.exe
+C:\Users\User\Desktop\csc\answer\A11-5\bin\Debug\net8.0\SampleApp.deps.json
+C:\Users\User\Desktop\csc\answer\A11-5\bin\Debug\net8.0\SampleApp.runtimeconfig.json
+C:\Users\User\Desktop\csc\answer\A11-5\bin\Debug\net8.0\SampleApp.dll
+C:\Users\User\Desktop\csc\answer\A11-5\bin\Debug\net8.0\SampleApp.pdb
+C:\Users\User\Desktop\csc\answer\A11-5\obj\Debug\net8.0\SampleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\csc\answer\A11-5\obj\Debug\net8.0\SampleApp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\csc\answer\A11-5\obj\Debug\net8.0\SampleApp.AssemblyInfo.cs
+C:\Users\User\Desktop\csc\answer\A11-5\obj\Debug\net8.0\SampleApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\csc\answer\A11-5\obj\Debug\net8.0\SampleApp.sourcelink.json
+C:\Users\User\Desktop\csc\answer\A11-5\obj\Debug\net8.0\SampleApp.dll
+C:\Users\User\Desktop\csc\answer\A11-5\obj\Debug\net8.0\refint\SampleApp.dll
+C:\Users\User\Desktop\csc\answer\A11-5\obj\Debug\net8.0\SampleApp.pdb
+C:\Users\User\Desktop\csc\answer\A11-5\obj\Debug\net8.0\SampleApp.genruntimeconfig.cache
+C:\Users\User\Desktop\csc\answer\A11-5\obj\Debug\net8.0\ref\SampleApp.dll
