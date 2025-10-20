@@ -1,0 +1,45 @@
+using System.Threading;
+namespace _20251020;
+
+public partial class Form1 : Form
+{
+    public Form1()
+    {
+        InitializeComponent();
+    }
+
+    private readonly CancellationTokenSource _cancellationTokenSource = new CancellationTokenSource();
+
+    private void Form1_FormClosing(object sender, FormClosingEventArgs e)
+    {
+        _cancellationTokenSource.Cancel();
+    }
+
+    private void button1_Click(object sender, EventArgs e)
+    {
+        label1.Text = "";
+        var th = new Thread(DoSomething);
+        th.Start();
+    }
+
+    private void DoSomething()
+    {
+        DoLongTimeWork();
+        CancellationToken token = _cancellationTokenSource.Token;
+
+        if (token.IsCancellationRequested)
+        {
+            return;
+        }
+
+        label1.Invoke((Action)delegate ()
+        {
+            label1.Text = "end";
+        });
+    }
+
+    private void DoLongTimeWork()
+    {
+        System.Threading.Thread.Sleep(500);
+    }
+}
