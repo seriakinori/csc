@@ -1,0 +1,6 @@
+C:\Users\User\Desktop\csc\src\Chap15\Sec010\obj\Debug\net8.0\SampleApp.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\csc\src\Chap15\Sec010\obj\Debug\net8.0\SampleApp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\csc\src\Chap15\Sec010\obj\Debug\net8.0\SampleApp.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\csc\src\Chap15\Sec010\obj\Debug\net8.0\SampleApp.AssemblyInfo.cs
+C:\Users\User\Desktop\csc\src\Chap15\Sec010\obj\Debug\net8.0\SampleApp.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\csc\src\Chap15\Sec010\obj\Debug\net8.0\SampleApp.sourcelink.json

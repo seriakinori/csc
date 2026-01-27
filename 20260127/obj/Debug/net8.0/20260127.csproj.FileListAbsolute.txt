@@ -1,0 +1,15 @@
+C:\Users\User\Desktop\csc\20260127\obj\Debug\net8.0\20260127.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\csc\20260127\obj\Debug\net8.0\20260127.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\csc\20260127\obj\Debug\net8.0\20260127.AssemblyInfo.cs
+C:\Users\User\Desktop\csc\20260127\obj\Debug\net8.0\20260127.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\csc\20260127\obj\Debug\net8.0\20260127.sourcelink.json
+C:\Users\User\Desktop\csc\20260127\bin\Debug\net8.0\20260127.exe
+C:\Users\User\Desktop\csc\20260127\bin\Debug\net8.0\20260127.deps.json
+C:\Users\User\Desktop\csc\20260127\bin\Debug\net8.0\20260127.runtimeconfig.json
+C:\Users\User\Desktop\csc\20260127\bin\Debug\net8.0\20260127.dll
+C:\Users\User\Desktop\csc\20260127\bin\Debug\net8.0\20260127.pdb
+C:\Users\User\Desktop\csc\20260127\obj\Debug\net8.0\20260127.dll
+C:\Users\User\Desktop\csc\20260127\obj\Debug\net8.0\refint\20260127.dll
+C:\Users\User\Desktop\csc\20260127\obj\Debug\net8.0\20260127.pdb
+C:\Users\User\Desktop\csc\20260127\obj\Debug\net8.0\20260127.genruntimeconfig.cache
+C:\Users\User\Desktop\csc\20260127\obj\Debug\net8.0\ref\20260127.dll
