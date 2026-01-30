@@ -1,0 +1,29 @@
+public class WordCounterService : ITextFileService
+{
+    private int _wordCount;
+
+    public void Initialize(string fname)
+    {
+        _wordCount = 0;
+    }
+
+    public void Execute(string line)
+    {
+        bool isPreviousSpace = true;
+
+        foreach(char c in line)
+        {
+            bool isSpace = char.IsWhiteSpace(c);
+            if(!isSpace && isPreviousSpace)
+            {
+                _wordCount++;
+            }
+            isPreviousSpace = isSpace;
+        }
+    }
+
+    public void Terminate()
+    {
+        Console.WriteLine(_wordCount);
+    }
+}
